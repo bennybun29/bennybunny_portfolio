@@ -1,3 +1,4 @@
+// Portfolio Page - Benedict Nacor
 import Navbar from '../components/Navbar';
 import ProjectSlideshow from '../components/ProjectSlideshow';
 import MotionSection from '../components/MotionSection';
@@ -329,7 +330,7 @@ export default function Home() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
+                    <label htmlFor="message" className="text-sm font-medium text-gray-300 mb-1">
                       Message
                     </label>
                     <textarea
