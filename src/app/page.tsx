@@ -5,6 +5,7 @@ import MotionSection from '../components/MotionSection';
 import MotionCard from '../components/MotionCard';
 import Image from 'next/image';
 
+// Portfolio Home Page - Benedict Nacor
 export default function Home() {
   return (
     <div className="min-h-screen bg-black">
