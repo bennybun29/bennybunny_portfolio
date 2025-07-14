@@ -50,7 +50,7 @@ export default function Home() {
             {/* Content - Right Side */}
             <MotionCard delay={0.4} className="flex-1 text-center lg:text-left">
               <h1 className="text-4xl sm:text-6xl font-bold text-white mb-6">
-                Hi, I'm <strong className="text-white">Benedict Nacor</strong>!
+                Hi, I&apos;m <strong className="text-white">Benedict Nacor</strong>!
               </h1>
               <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-2xl lg:max-w-none">
                 A passionate <strong className="text-white">Mobile/Android</strong> developer creating beautiful and functional mobile applications
@@ -83,7 +83,7 @@ export default function Home() {
           <MotionCard className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">About Me</h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              I'm a dedicated <strong className="text-white">Mobile Developer</strong> with a passion for creating innovative solutions
+              I&apos;m a dedicated <strong className="text-white">Mobile Developer</strong> with a passion for creating innovative solutions
             </p>
           </MotionCard>
           
@@ -97,15 +97,15 @@ export default function Home() {
                 </p>
 
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  Currently, I'm focused on <strong className="text-white">Flutter and Dart</strong> to expand my skills in cross-platform app development. So far, I've built two full-cycle mobile applications as academic projects—each grounded in real-world use cases and designed with clean, maintainable code in mind.
+                  Currently, I&apos;m focused on <strong className="text-white">Flutter and Dart</strong> to expand my skills in cross-platform app development. So far, I&apos;ve built two full-cycle mobile applications as academic projects—each grounded in real-world use cases and designed with clean, maintainable code in mind.
                 </p>
 
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  Beyond mobile, I'm also exploring backend services like <strong className="text-white">AWS</strong> and learning about <strong className="text-white">Large Language Models (LLMs)</strong> to better understand how intelligent systems can enhance the apps I build. My goal is to bridge solid technical foundations with human-centered design.
+                  Beyond mobile, I&apos;m also exploring backend services like <strong className="text-white">AWS</strong> and learning about <strong className="text-white">Large Language Models (LLMs)</strong> to better understand how intelligent systems can enhance the apps I build. My goal is to bridge solid technical foundations with human-centered design.
                 </p>
 
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  Whether it's refining UI, managing app state efficiently, or integrating third-party APIs, I take pride in building apps that are both functional and enjoyable to use.
+                  Whether it&apos;s refining UI, managing app state efficiently, or integrating third-party APIs, I take pride in building apps that are both functional and enjoyable to use.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <div className="text-center">
@@ -257,7 +257,7 @@ export default function Home() {
           <MotionCard className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Get In Touch</h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              I'm always interested in new opportunities and exciting projects
+              I&apos;m always interested in new opportunities and exciting projects
             </p>
           </MotionCard>
           
@@ -265,10 +265,10 @@ export default function Home() {
             <div className="bg-gray-900 rounded-2xl shadow-xl p-8 border border-gray-800">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-4">Let's Connect</h3>
+                  <h3 className="text-xl font-bold text-white mb-4">Let&apos;s Connect</h3>
                   <p className="text-gray-300 mb-6">
                     Whether you have a project in mind or just want to chat about different stuff, 
-                    I'd love to hear from you!
+                    I&apos;d love to hear from you!
                   </p>
                   
                   <div className="space-y-4">

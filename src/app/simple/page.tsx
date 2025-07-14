@@ -61,7 +61,7 @@ export default function SimplePage() {
             {/* Content - Right Side */}
             <div className="flex-1 text-center lg:text-left">
               <h1 className="text-4xl sm:text-6xl font-bold text-white mb-6">
-                Hi, I'm <strong className="text-white">Benedict Nacor</strong>!
+                Hi, I&apos;m <strong className="text-white">Benedict Nacor</strong>!
               </h1>
               <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-2xl lg:max-w-none">
                 A passionate <strong className="text-white">Mobile/Android</strong> developer creating beautiful and functional mobile applications
@@ -94,7 +94,7 @@ export default function SimplePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">About Me</h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              I'm a dedicated <strong className="text-white">Mobile Developer</strong> with a passion for creating innovative solutions
+              I&apos;m a dedicated <strong className="text-white">Mobile Developer</strong> with a passion for creating innovative solutions
             </p>
           </div>
           
@@ -105,7 +105,7 @@ export default function SimplePage() {
                 I began my journey in mobile development out of curiosity for how apps shape everyday experiences—right from our pockets. My first step was learning <strong className="text-white">Kotlin</strong> and building native Android apps, which gave me a solid foundation in user interface design, local databases, and backend integration.
               </p>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                Currently, I'm focused on <strong className="text-white">Flutter and Dart</strong> to expand my skills in cross-platform app development. So far, I've built two full-cycle mobile applications as academic projects—each grounded in real-world use cases and designed with clean, maintainable code in mind.
+                Currently, I&apos;m focused on <strong className="text-white">Flutter and Dart</strong> to expand my skills in cross-platform app development. So far, I&apos;ve built two full-cycle mobile applications as academic projects—each grounded in real-world use cases and designed with clean, maintainable code in mind.
               </p>
             </div>
             

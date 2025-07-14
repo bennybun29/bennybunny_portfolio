@@ -130,7 +130,7 @@ export default function ProjectSlideshow() {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [currentIndex, isTransitioning]);
+  }, [currentIndex, isTransitioning, nextSlide]);
 
   const currentProject = projects[currentIndex];
 
