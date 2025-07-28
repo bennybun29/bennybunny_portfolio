@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar />
       
       {/* Home Section */}
-      <MotionSection id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <div id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         {/* Background GIF */}
         <div className="absolute inset-0 z-0">
           <div className="relative w-full h-full">
@@ -76,10 +76,10 @@ export default function Home() {
             </MotionCard>
           </div>
         </div>
-      </MotionSection>
+      </div>
 
       {/* About Section */}
-      <MotionSection id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
+      <div id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
         <div className="max-w-7xl mx-auto">
           <MotionCard className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">About Me</h2>
@@ -166,10 +166,10 @@ export default function Home() {
             </MotionCard>
           </div>
         </div>
-      </MotionSection>
+      </div>
 
       {/* Projects Section */}
-      <MotionSection id="projects" className="py-16 px-4 sm:px-6 lg:px-8 bg-black">
+      <div id="projects" className="py-16 px-4 sm:px-6 lg:px-8 bg-black">
         <div className="max-w-7xl mx-auto">
           <MotionCard className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Featured Projects</h2>
@@ -182,10 +182,10 @@ export default function Home() {
             <ProjectSlideshow />
           </MotionCard>
         </div>
-      </MotionSection>
+      </div>
 
       {/* Skills Section */}
-      <MotionSection id="skills" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
+      <div id="skills" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
         <div className="max-w-7xl mx-auto">
           <MotionCard className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Skills & Technologies</h2>
@@ -250,10 +250,10 @@ export default function Home() {
             </MotionCard>
           </div>
         </div>
-      </MotionSection>
+      </div>
 
       {/* Contact Section */}
-      <MotionSection id="contact" className="py-16 px-4 sm:px-6 lg:px-8 bg-black">
+      <div id="contact" className="py-16 px-4 sm:px-6 lg:px-8 bg-black">
         <div className="max-w-4xl mx-auto">
           <MotionCard className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Get In Touch</h2>
@@ -352,7 +352,7 @@ export default function Home() {
             </div>
           </MotionCard>
         </div>
-      </MotionSection>
+      </div>
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-800">
