@@ -1,7 +1,6 @@
 // Portfolio Page - Benedict Nacor
 import Navbar from '../components/Navbar';
 import ProjectSlideshow from '../components/ProjectSlideshow';
-import MotionSection from '../components/MotionSection';
 import MotionCard from '../components/MotionCard';
 import Image from 'next/image';
 

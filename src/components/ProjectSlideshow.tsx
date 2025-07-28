@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import Image from 'next/image';
 
 interface Project {
@@ -69,13 +69,13 @@ export default function ProjectSlideshow() {
   // Minimum swipe distance (in px)
   const minSwipeDistance = 50;
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     if (!isTransitioning) {
       setIsTransitioning(true);
       setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
       setTimeout(() => setIsTransitioning(false), 300);
     }
-  };
+  }, [isTransitioning]);
 
   const prevSlide = () => {
     if (!isTransitioning) {
